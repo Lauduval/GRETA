@@ -97,7 +97,7 @@ ul li.else
 h1
 {
     position: absolute;
-    color: white;
+    color: yellow;
     font-size: 5rem;
     margin: 150px
 }
@@ -222,6 +222,6 @@ section
 #picCover
 {
     position: sticky;
-    top: -770px;
+    top: -228px;
     z-index: 11
 }

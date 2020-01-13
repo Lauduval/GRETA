@@ -1,0 +1,226 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    margin: 0
+}
+
+header
+{
+    height: 1000px;
+    overflow: hidden;
+    position: sticky;
+    top: -690px;
+    z-index: 5
+}
+
+ul
+{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 60px;
+    overflow: hidden;
+    background-color: #333;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 10
+}
+
+#nav2
+{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 60px;
+    overflow: hidden;
+    background-color: #333;
+    color: white;
+    position: sticky;
+    top: 250px;
+    z-index: 5
+}
+
+ul li
+{
+    float: left;
+    list-style-type: none
+
+
+}
+
+ul li p
+{
+    float: left;
+    display: block;
+    padding: 5px 20px
+
+}
+
+ul li.else
+{
+    float: right;
+    display: block;
+    padding: 0 20px
+
+}
+
+#title
+{
+    display: flex;
+    position: sticky;
+    top: 80px;
+    z-index: 10
+
+}
+
+#blockMiddle
+{
+    padding: 200px 100px;
+    text-align: end;
+    position: sticky;
+    top: -120px;
+    z-index: 10
+}
+
+#blockMiddle img
+{
+    width: 150px;    
+    z-index: 10
+    
+}
+
+h1
+{
+    position: absolute;
+    color: white;
+    font-size: 5rem;
+    margin: 150px
+}
+
+#titre
+{
+    display: block;
+    margin: 0 0 250px 50px;
+    position: relative;
+    top:50px;
+    font-size: 3rem;
+    color: rgb(155,45,11);
+    z-index: 10
+}
+
+#second
+{
+    margin: -250px 0 250px 250px;
+    font-size: 3rem;
+    color: rgb(155,45,11);
+    float: left;
+    z-index: 0
+}
+
+article
+{
+    text-align: center
+}
+
+article p
+{
+    font-size: 2rem
+}
+
+.navIcon
+{
+    background-color: #333;
+    color: white;
+    width:200px;
+    height: 60px;
+    text-align: center;
+    padding: 1px
+
+
+}
+
+#news
+{
+    margin-left: 200px;
+    position: sticky;
+    top: 250px;
+    z-index: 15
+}
+
+#product
+{
+    margin-left: 400px;
+    position: sticky;
+    top: 250px;
+    z-index: 15
+}
+
+#home
+{
+    margin-left:0px;
+    position: sticky;
+    top: 250px;
+    z-index: 15
+}
+
+#home img
+{
+    width: 40px;
+    position: relative;
+    top: -45px
+}
+
+#else
+{
+
+    margin-left: 600px;
+    position: sticky;
+    top: 250px;
+    z-index: 15
+}
+
+section
+{
+
+    margin: 0 0 150px
+}
+
+#zone1
+{
+    background-color: #D4CDC3;
+    border: 1px solid #D4CDC3;
+    color: white
+}
+
+#zone2
+{
+    background-color:rgb(155,45,11);
+    border: 1px solid rgb(155,45,11);
+    color: white
+}
+
+#zone3
+{
+    background-color:#9A998C;
+    border: 1px solid #9A998C;
+    color: white
+}
+
+#zone4
+{
+    background-color:#582630;
+    border: 1px solid #582630;
+    color: white
+}
+
+#picCover
+{
+    position: sticky;
+    top: -770px;
+    z-index: 11
+}

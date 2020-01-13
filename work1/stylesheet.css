@@ -225,3 +225,14 @@ section
     top: -228px;
     z-index: 11
 }
+a
+{
+    text-decoration: none
+}
+
+a:hover{
+    font-size: 1.5rem
+}
+a:visited{
+    color: red;
+}
